@@ -17,8 +17,9 @@ func main() {
 	fmt.Println("Щоб купити 9 яблук та 8 груш потрібно", res1, "\n")
 
 	fmt.Println("2. Скільки груш ми можемо купити?")
-	var res2 int = int(budget) / int(pearPrice)
-	fmt.Println("Ми можемо купити", res2, "груш.", "\n")
+	var res2 float64 = budget / pearPrice
+	var res22 int = int(res2)
+	fmt.Println("Ми можемо купити", res22, "груш.", "\n")
 
 	fmt.Println("3. Скільки яблук ми можемо купити?")
 	var res3 int = int(budget) / int(applePrice)
