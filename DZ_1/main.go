@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var (
 		applePrice float64 = 5.99
-		pearPrice  int     = 7
+		pearPrice  float64 = 7
 		budget     float64 = 23
 	)
 
